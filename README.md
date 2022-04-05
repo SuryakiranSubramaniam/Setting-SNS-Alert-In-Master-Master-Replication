@@ -63,12 +63,16 @@ fi
 ```
 > chmod +x script.sh
 
+## Create Crone job
+
 ```
 ~]# crontab -e
 
 ~]# crontab -l
 * * * * *	/root/script.sh
 ```
+## Now for testing stop mariadb.service
+
 ```
 [root@ip-172-31-41-132 ~]# systemctl stop mariadb.service 
 [root@ip-172-31-41-132 ~]# service mariadb status | grep running | grep -v not | wc -l
@@ -79,7 +83,9 @@ Redirecting to /bin/systemctl status mariadb.service
 0
 You have new mail in /var/spool/mail/root
 ```
-### AWS Notification Message
+## AWS Notification Message
+
+After some time mariadb.service will be started
 
 ```
 [root@ip-172-31-41-132 ~]# service mariadb status | grep running | grep -v not | wc -l
