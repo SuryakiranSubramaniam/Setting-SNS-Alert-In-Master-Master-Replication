@@ -40,6 +40,8 @@ Default output format [None]:
 ```
 ## Create Shell script
 
+We get the ***ARN*** from ***SNS Topic*** 
+
 ```
 ~]# cat script.sh 
 #!/bin/bash
