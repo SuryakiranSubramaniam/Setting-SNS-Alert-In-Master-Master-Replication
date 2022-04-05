@@ -2,13 +2,25 @@
 Setting-SNS-Alert-In-Master-Master-Replication
 
 ## Create topic
+
 ![alt text](https://github.com/SuryakiranSubramaniam/Setting-SNS-Alert-In-Master-Master-Replication/blob/main/image/Topic-1.png)
+
+Click ***create topic***
+
 ![alt text](https://github.com/SuryakiranSubramaniam/Setting-SNS-Alert-In-Master-Master-Replication/blob/main/image/Topic-2.png)
+
 ## Create subscription
+
 ![alt text](https://github.com/SuryakiranSubramaniam/Setting-SNS-Alert-In-Master-Master-Replication/blob/main/image/Subscription-1.png)
+
+Click ***create subscription***
+
 ![alt text](https://github.com/SuryakiranSubramaniam/Setting-SNS-Alert-In-Master-Master-Replication/blob/main/image/subscription-2.png)
+
 ## AWS Notification - Subscription Confirmation
+
 ![alt text](https://github.com/SuryakiranSubramaniam/Setting-SNS-Alert-In-Master-Master-Replication/blob/main/image/confirmation.png)
+
 ## Install and configure AWS CLI
 
 #### Install AWS CLI
@@ -71,4 +83,5 @@ Redirecting to /bin/systemctl status mariadb.service
 1
 
 ```
+
 ![alt text](https://github.com/SuryakiranSubramaniam/Setting-SNS-Alert-In-Master-Master-Replication/blob/main/image/notification.png)
