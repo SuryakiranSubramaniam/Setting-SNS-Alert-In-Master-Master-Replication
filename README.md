@@ -9,6 +9,8 @@ Click ***create topic***
 
 ![alt text](https://github.com/SuryakiranSubramaniam/Setting-SNS-Alert-In-Master-Master-Replication/blob/main/image/Topic-2.png)
 
+Note the ***ARN*** of the newly created Topic(***arn:aws:sns:ap-south-1:323568642936:Master2Master***)
+
 ## Create subscription
 
 ![alt text](https://github.com/SuryakiranSubramaniam/Setting-SNS-Alert-In-Master-Master-Replication/blob/main/image/Subscription-1.png)
